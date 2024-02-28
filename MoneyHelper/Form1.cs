@@ -29,8 +29,8 @@ namespace MoneyHelper
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form3 f3 = new Form3();
-            f3.Show();
+            Form2 f2 = new Form2();
+            f2.Show();
         }
     }
 }

@@ -53,5 +53,22 @@ namespace MoneyHelper
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            decimal venitlunar = decimal.Parse(textBox1.Text);
+            decimal cheltuielilunare = decimal.Parse(textBox2.Text);
+            decimal ramaslunar = venitlunar - cheltuielilunare;
+
+            int bugetdorit =int.Parse(textBox3.Text);
+            decimal luni = bugetdorit / ramaslunar;
+            decimal luniarpox = Math.Round(luni, MidpointRounding.AwayFromZero);
+            output.Text = $"Bugetul dorit de {bugetdorit} il puteti obtineti in {luniarpox} luni ";
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

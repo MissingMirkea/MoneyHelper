@@ -36,26 +36,28 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Verdana", 12F);
-            this.button1.Location = new System.Drawing.Point(73, 180);
+            this.button1.Location = new System.Drawing.Point(127, 180);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(215, 37);
+            this.button1.Size = new System.Drawing.Size(145, 37);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Istoricul tranzacțiilor";
+            this.button1.Text = "Cheltuieli";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Transparent;
+            this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Verdana", 12F);
-            this.button2.Location = new System.Drawing.Point(481, 180);
+            this.button2.Location = new System.Drawing.Point(525, 180);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(231, 37);
+            this.button2.Size = new System.Drawing.Size(148, 37);
             this.button2.TabIndex = 1;
-            this.button2.Text = "Investiții și management";
+            this.button2.Text = "Management";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -74,8 +76,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Chocolate;
-            this.BackgroundImage = global::MoneyHelper.Properties.Resources.illustration_6_0;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(784, 386);
             this.Controls.Add(this.label1);
